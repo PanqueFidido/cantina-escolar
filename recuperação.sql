@@ -1,8 +1,3 @@
--- Ferramenta utilizada: MySQL Workbench
--- Justificativa:
--- O MySQL Workbench permite criar e gerenciar bancos de dados,
--- executar comandos SQL e visualizar resultados de forma gráfica
--- e organizada, facilitando testes e validações.
 
 -- CRIAÇÃO DO BANCO E TABELAS
 CREATE DATABASE IF NOT EXISTS cantina_escolar;
@@ -104,21 +99,3 @@ JOIN produtos p ON iv.produto_id = p.id;
 -- CONEXÃO COM O BANCO 
 SELECT VERSION();
 SELECT DATABASE();
-
-
--- TESTES REALIZADOS
--- Teste 1: Inserção de cliente
--- Resultado esperado: cliente aparece corretamente no SELECT
- -- SELECT * FROM clientes;
-
--- Teste 2: Atualização de produto
--- Resultado esperado: preço do Sanduíche alterado para 13.50
--- SELECT * FROM produtos WHERE nome = 'Sanduíche';
-
--- Teste 3: Exclusão de item de venda
--- Resultado esperado: item com ID = 2 não aparece mais
--- SELECT * FROM itens_venda;
-
--- Teste 4: Consulta com JOIN
--- Resultado esperado: exibição correta de cliente, produto e quantidade
--- SELECT com JOIN entre clientes, vendas, itens_venda e produtos
