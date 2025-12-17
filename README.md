@@ -10,5 +10,5 @@ MySQL Workbench
 ## Como executar
 1. Abrir o MySQL Workbench
 2. Conectar ao servidor MySQL
-3. Abrir o arquivo recuperacao_cantina.sql
+3. Abrir o arquivo recuperacao.sql
 4. Executar o script completo
